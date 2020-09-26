@@ -11,7 +11,10 @@ Check out `fgsm_attack.ipynb` and run the notebook.
 
 ### Targeted
 
+![Targeted FGSM attack on MNIST classifier with target class 8](data/img/t8_fgsm.png)
+
 ### Untargeted
 
+![Untargeted FGSM attack on MNIST classifier](data/img/ut_fgsm.png)
 
 [1] Goodfellow, Ian J., Jonathon Shlens, and Christian Szegedy. "Explaining and harnessing adversarial examples." arXiv preprint arXiv:1412.6572 (2014).
