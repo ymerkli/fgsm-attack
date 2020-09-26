@@ -106,4 +106,8 @@ class FGSMAttack(object):
             cnt += 4
             cnt -= cnt % 5
         plt.tight_layout()
+        if self.target:
+            plt.savefig("data/img/t{}_fgsm.png".format(self.target))
+        else:
+            plt.savefig("data/img/ut_fgsm.png")
         plt.show()
